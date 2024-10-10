@@ -10,7 +10,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.ViewModelProvider
 import com.loxewyx.todolist.ui.pages.TodoListPage
-import com.loxewyx.todolist.ui.theme.MusicListTheme
+import com.loxewyx.todolist.ui.theme.ToDoListTheme
 import com.loxewyx.todolist.data.viewmodel.TodoViewModel
 import com.loxewyx.todolist.domain.TodoManager
 
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            MusicListTheme {
+            ToDoListTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background

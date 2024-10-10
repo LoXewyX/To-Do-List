@@ -39,7 +39,6 @@ fun TodoListPage(viewModel: TodoViewModel) {
     ) {
         LazyColumn(
             modifier = Modifier.weight(1f),
-            reverseLayout = true,
             verticalArrangement = Arrangement.Bottom
         ) {
             itemsIndexed(todoList) { _, item ->
